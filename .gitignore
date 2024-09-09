@@ -1,0 +1,67 @@
+# Общие настроения для большинства операционных систем и инструментов
+.DS_Store
+Thumbs.db
+
+# Лог-файлы
+*.log
+
+# Компилированные файлы
+*.o
+*.out
+*.class
+*.so
+*.dll
+*.exe
+
+# C++
+*.obj
+*.pyc
+*.pyo
+
+# Директории сборки
+build/
+dist/
+bin/
+
+# Пакетные системы (если вы используете их)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Видео-пользовательские директории (если используете Visual Studio Code)
+.vscode/
+
+# Пример для бэкенда C++ (CMake)
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+
+# Пример для фронтенда (npm/Yarn)
+node_modules/
+public/
+
+# Игнорирование зависимостей PHP (Composer)
+vendor/
+
+# Docker
+docker-compose.override.yml
+.docker/
+Dockerfile
+
+# IDE
+*.idea/
+*.swp
+*.swo
+.vscode/
+*.code-workspace
+
+# Test data
+test-output/
+logs/
+
+# База данных и миграции
+*.db
+*.sqlite
+
+# Секретные для приложения файлы конфигурации
+.env
